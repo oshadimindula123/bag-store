@@ -92,6 +92,7 @@ async function handleLogin() {
       router.push('/')
     }, 1500)
   } catch (e) {
+    
     errorMsg.value = 'Invalid username or password. Please try again.'
   } finally {
     loading.value = false
